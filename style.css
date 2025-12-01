@@ -1,0 +1,38 @@
+/* Basic external style sheet */
+
+/* Make the page easier to read */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style all paragraphs */
+p {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Style subheadings */
+h3 {
+    color: darkblue;
+}
+
+/* Make links blue like default but slightly different */
+a {
+    color: #0044cc;
+}
+
+/* Hover effect (simple but meets assignment) */
+a:hover {
+    color: red;
+}
+
+/* Style emphasized text */
+em {
+    color: green;
+}
+
+/* Optional: Make strong text stand out a bit more */
+strong {
+    color: darkred;
+}
