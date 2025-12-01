@@ -1,0 +1,57 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Sage Johnson
+   Date of Submission: 11/29/2025 
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+body {
+   background-color: black;
+   color: white;
+   font-family: "Century Gothic", sans-serif;
+}
+
+/* Header h1 styles */
+header h1 {
+   color: yellow;
+   font-family: "Courier New", Courier, monospace;
+   font-size: 28px;
+   letter-spacing: 20px;
+   text-align: center;
+}
+
+/* Article heading styles */
+article h2 {
+   font-size: 24px;
+   font-weight: normal;
+   letter-spacing: 5px;
+}
+
+/* Article paragraph styles */
+article p {
+   text-align: justify;
+}
+
+/* Keyword strong text */
+.keyword {
+   color: yellow;
+   font-weight: normal;
+}
+
+/* Footer paragraph styles */
+footer p {
+   text-align: center;
+}
+
+/* Remove borders from images using image maps */
+img[usemap] {
+   border-width: 0px;
+   border-style: none;
+}
