@@ -36,3 +36,20 @@ em {
 strong {
     color: darkred;
 }
+
+/* Fix table being covered issue */
+table {
+    position: relative;
+    z-index: 10;
+}
+
+body, h1, h3, p {
+    position: relative;
+    z-index: 1;
+}
+
+* {
+    pointer-events: auto;
+}
+
+
